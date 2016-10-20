@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background: lightgrey;
+  margin: auto;
+  margin-top: 300px;
+}
