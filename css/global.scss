@@ -1,10 +1,56 @@
+$color1:#482A2A;
+$color2:#EDE1D5;
+$color3:#F2774B;
+$color4:#CF484C;
+$color5:#712357;
+$color6:#42A5F8;
+
 *{
     box-sizing: border-box;
 }
-.container{
-    width: 200px;
-    height: 200px;
-    background: lightgrey;
+
+body{
+    background: #482A2A;
+}
+h1{
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    color: $color2;
+}
+
+.outer-circle{
+    background: $color2;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 50px;
+    width: 700px;
+    height:700px;
+    border-radius: 100%;
+    padding-right: 20px;
+}
+
+
+.inner-circle{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    border-radius: 100%;
+    background: $color3;
+    top: 320px;
+    right: 620px;
+    position: absolute;
+}
+.watch-section{
+    margin: auto;
+    width: 300px;
+    padding-top: 200px;
+    h1{
+        font-size: 250px;
+        margin: auto;
+        color: $color3;
+    }
+    .btn{
+        width: 150px;
+        height: 40px;
+    }
 }
