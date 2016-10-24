@@ -16,22 +16,11 @@ h1 {
 .outer-circle {
   background: #EDE1D5;
   margin: auto;
-  margin-top: 50px;
-  width: 700px;
-  height: 700px;
+  margin-top: 80px;
+  width: 500px;
+  height: 500px;
   border-radius: 100%;
   padding-right: 20px;
-}
-
-.inner-circle {
-  width: 450px;
-  height: 450px;
-  margin: auto;
-  border-radius: 100%;
-  background: #F2774B;
-  top: 320px;
-  right: 620px;
-  position: absolute;
 }
 
 .watch-section {
@@ -41,12 +30,35 @@ h1 {
 }
 
 .watch-section h1 {
-  font-size: 250px;
+  font-size: 100px;
   margin: auto;
   color: #F2774B;
+  margin-right: 10px;
 }
 
 .watch-section .btn {
-  width: 150px;
+  width: 100px;
   height: 40px;
+}
+
+.blinker {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
